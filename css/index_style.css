@@ -1,0 +1,419 @@
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    overflow: hidden;
+}
+
+.bg-black
+{
+    background-color: #000000;
+    padding: 0px 100px;
+    
+}
+nav
+{
+    transition: all 1s;
+}
+
+#colors-container
+{
+    
+    position: fixed;
+    top:200;
+    left: 0;
+    z-index: 99999;
+    font-family: 'segoe ui light';
+}
+#color
+{
+    border: 1px solid #000;
+    background-color: #fff;
+    padding: 10px;
+}
+#color .x
+{
+    
+    font-size: 18px;
+    font-weight: 600;
+}
+#colors-container i
+{
+    padding: 10px;
+    color: #fff;
+    background-color: #000000;
+    cursor: pointer;
+}
+.color-item
+{
+    width: 28px;
+    height: 28px;
+    background-color: tomato;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+
+
+#btnUp
+{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+}
+
+#header
+{
+    height: 640px;
+    background-image: url(../images/intro-bg.jpg);
+    background-size: 100% 100%;
+}
+#header .cover
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(36, 36, 36,0.3);
+}
+
+nav .navbar-brand
+{
+    font-size: 35px ;
+    font-weight: 400;
+}
+
+.navbar-nav .nav-link
+{
+    color: #fff !important;
+    font-weight: 600;
+
+}
+
+
+
+#header .home
+{
+    font-family: 'segoe ui light';
+    position: relative;
+    top: 150px;
+}
+
+.home p
+{
+    font-size: 22px;
+    font-weight: 600;
+}
+.home h2
+{
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 8px;
+}
+
+#about
+{
+    font-family: 'segoe ui light';
+    
+}
+.about-caption
+{
+    position: relative;
+    font-weight: 800;
+}
+
+.about-caption h2
+{
+    
+    color: #f1f1f1;
+    font-size: 5rem;
+    font-weight: 600;
+   
+}
+.about-caption h3 
+{
+    
+    position: absolute;
+    font-size: 3rem;
+    font-weight: 900;
+
+}
+.about-container h3
+{
+    font-size: 32px;
+    font-weight: 900;
+}
+#about p
+{
+    font-size: 20px;
+}
+
+.head p 
+{
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.services  .x
+{
+    height: 2px;
+    width: 20px;
+    background-color: palevioletred;
+}
+.services  .y
+{
+    height: 2px;
+    width: 50px;
+    background-color: palevioletred;
+}
+.services  .x
+{
+    height: 2px;
+    width: 20px;
+    background-color: palevioletred;
+}
+
+#benefits
+{
+    font-family: 'segoe ui light';
+    background-color: mintcream;
+} 
+#benefits p 
+{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.benefits-cont p
+{
+    font-size: 25px;
+    font-weight: 600;
+
+}
+.benefits-cont i
+{
+    color: lightseagreen;
+}
+
+#events
+{
+    font-family: 'segoe ui light';
+    
+}
+#events h3
+{
+    
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#blog
+{
+    font-family: 'segoe ui light';
+    background-color: #f0f0f0;
+}
+.heads p 
+{
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+.heads h6
+{
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+#blog>p
+{
+    font-size: 32px;
+    font-weight: 600;
+    
+}
+
+#blog .text-muted
+{
+    font-size: 15px;
+    font-weight: 900;
+}
+.blog-container img
+{
+   transition: all 0.5s;
+}
+
+.blog-container:hover img 
+{
+   transform: scale(1.1 , 1.1);
+}
+
+.blog-container
+{
+    overflow: hidden;
+}
+
+.blog-container h4
+{
+    
+    font-weight: 900;
+    cursor: pointer;
+}
+.blog-container:hover h4 
+{
+    color: lightseagreen;
+}
+#contact
+{
+    font-family: 'segoe ui light';
+}
+.contact-caption
+{
+    position: relative;
+    font-weight: 800;
+}
+
+.contact-caption h2
+{
+    
+    color: #f1f1f1;
+    font-size: 5rem;
+    font-weight: 600;
+   
+}
+.contact-caption h3 
+{
+    
+    position: absolute;
+    font-size: 3rem;
+    font-weight: 900;
+
+}
+
+.contact-container
+{
+    background-color: #2ebd7f;
+   
+}
+.contact-container div
+{
+    width: 35px;
+    height: 2px;
+
+    background-color: #fff;
+}
+.contact-add
+{
+    margin: 0px;
+}
+
+.contacts
+{
+    font-size: 25px;
+    font-weight: 500;
+}
+.m-0
+{
+    font-weight: 700;
+}
+
+#foot
+{
+    background-color: #0E1117;
+    font-family: 'segoe ui light';
+}
+#foot .foot-caption
+{
+    font-weight: 600;
+    font-size: 22px;
+}
+
+#foot .x
+{
+    font-size: 20px !important;
+}
+.foot-icon i:hover 
+{
+    color: lightseagreen;
+   
+}
+.footer-end a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.footer-end
+{
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.footer-end a:hover
+{
+    color: lightseagreen;
+}
+
+
+
+.spinner {
+    width: 40px;
+    height: 40px;
+  
+    position: relative;
+    margin: 250px auto;
+  }
+  
+  .double-bounce1, .double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+  }
+  
+  .double-bounce2 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+  }
+  
+  @-webkit-keyframes sk-bounce {
+    0%, 100% { -webkit-transform: scale(0.0) }
+    50% { -webkit-transform: scale(1.0) }
+  }
+  
+  @keyframes sk-bounce {
+    0%, 100% { 
+      transform: scale(0.0);
+      -webkit-transform: scale(0.0);
+    } 50% { 
+      transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+    }
+  }
+
+#loading
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    z-index: 999999;
+}
+
