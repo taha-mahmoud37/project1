@@ -4,7 +4,7 @@ $(window).scroll(function(){
 let wScroll = $(window).scrollTop();
 
 
-  if(wScroll > aboutOffset-40)
+  if(wScroll > 300)
   {
       $("nav").addClass("bg-black")
       $("#btnUp").fadeIn(500)
@@ -18,7 +18,9 @@ let wScroll = $(window).scrollTop();
    
 })
 
-
+$("#icon").click(function(){
+    $('ul').toggleClass('show');
+})
 
 $("a[class='nav-link']").click(function(){
 
@@ -58,13 +60,13 @@ $("#colors-container i").click(function(){
 
     let colorWidth = $("#color").outerWidth(true);
 
-   if($("#colors-container").css("left")=="0px")
+   if($("#colors-container").css("left")==`-${colorWidth}px`)
    {
-    $("#colors-container").animate({left : `-${colorWidth}px`} ,500) 
+    $("#colors-container").animate({left : `0px`} ,500) 
    }
     else
     {
-        $("#colors-container").animate({left : `0px`} ,500) 
+        $("#colors-container").animate({left : `-${colorWidth}px`} ,500) 
 
     }
 })
