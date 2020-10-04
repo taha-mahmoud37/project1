@@ -145,6 +145,7 @@ nav
     position: fixed;
     bottom: 30px;
     right: 30px;
+    z-index: 99999;
     display: none;
 }
 
@@ -396,6 +397,10 @@ nav .navbar-brand
     font-size: 25px;
     font-weight: 500;
 }
+.bold1
+{
+    font-weight: 600 !important;
+}
 .m-0
 {
     font-weight: 700;
@@ -557,5 +562,10 @@ nav .navbar-brand
     nav ul 
     {
         width: 100%;
+    }
+
+    .form-control
+    {
+        width: 100% !important;
     }
 }
